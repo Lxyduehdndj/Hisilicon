@@ -1,0 +1,16 @@
+
+static_library("robot_demo") {
+  sources = [
+    "robot_control.c",
+    "robot_l9110s.c",
+    "trace_model.c",
+    #"hal_iot_gpio_ex.c",
+    #"hal_iot_gpio.c",
+  ]
+
+  include_dirs = [
+    "//utils/native/lite/include",
+    "//kernel/liteos_m/kal/cmsis",
+    "//base/iot_hardware/peripheral/interfaces/kits",
+  ]
+}
