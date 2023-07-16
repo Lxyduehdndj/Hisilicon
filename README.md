@@ -10,8 +10,8 @@ Pegasus/interconnection_oled/目录下面是Pegasus进行串口通信的代码�
 
 Taurus/cnn_trash_classify/目录下面是海洋生物分类的关键代码。
 
-Taurus/aac_file/目录下面是语音播报的aac文件。
-
 Taurus/interconnection_server/目录下面是Taurus端串口通信的关键代码。
+
+Taurus/aac_file/目录下面是语音播报的aac文件。
 
 Taurus/fishdata_inst.wk是训练好的wk模型。
